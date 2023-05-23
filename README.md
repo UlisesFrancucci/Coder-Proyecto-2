@@ -15,3 +15,4 @@
 ### Se debe aclarar que tambien La pagina web cuenta con el metodo responsive, es decir se adapta a resoluciones ya sea de mobile (375px) o desktop(1023px)
 
 ![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+
