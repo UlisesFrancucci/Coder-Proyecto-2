@@ -7,9 +7,42 @@
 }
 
 
-.body {
-    font-family: 'Roboto Condensed', sans-serif;
+/* Generador de animaciones/Sombras /Compartido */
+
+#demotext {
+    color: #444444;
+    background: rgb(184, 179, 179);
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+    color: #444444;
+    background: rgb(184, 179, 179);
+    }
+ 
+
+
+/* Fondo animado */
+
+body{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(45deg, grey, black);
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 10s ease-in-out infinite;
 }
+
+
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+
+
+
+
+
+
 
 
 /* Inicio Movile/Index */
@@ -26,11 +59,8 @@
 @media(min-width:375px) {
 
 
-    .logo{
-        height: 70px;
-    }
-
 /* ========main========= */
+
 
 /* Seccion destacada Index */
 
@@ -38,6 +68,7 @@
 .envios-txt {
     font-size: 1.1rem;
 }
+
 
 .envios {
     display: flex;
@@ -55,12 +86,10 @@
 }
 
 .lista-redes a {
-    color: black;
+    color: whitesmoke;
 }
 
-.section-dest {
-    background-color: rgb(244, 245, 242);
-}
+
 
 /* Destacados de la semana */
 
@@ -68,11 +97,11 @@
     display: flex;
     justify-content: center;
     margin-top: 40px;
-    background-color:rgb(184, 179, 179) ;
 }
 
 .destacados-txt{
-    font-size: 2rem;
+    font-size: 1.3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -124,8 +153,12 @@
     justify-content: space-around;
 }
 
+.buttons-dest1:hover{
+    color: black;
+    background-color: grey;
+}
+
 .buttons-dest1 {
-    background-color: rgb(168, 168, 165);
     height: 35px;
     border-radius: 10px;
     width: 100px;
@@ -157,10 +190,14 @@
     margin-top: 40px;
 }
 
+.color-tipografia-fter{
+    color: black;
+}
 
 .phone-icon {
     display: flex;
     justify-content: center;
+    color: black;
 }
 
 
@@ -221,10 +258,23 @@
     font-size: 0.75rem;
 }
 
+
 }
 
 /*======Fin media querys Movile======*/
 
+
+/* ====Media Querys Tablet */
+
+@media (min-width:700px){
+
+
+    .container-redes1{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+}
 
 /*=====Media querys desktop=======*/
 
@@ -243,6 +293,8 @@
         margin-left: 30px;
     }
 
+
+
     .redes-1{
         display:block;
         float: right;
@@ -255,7 +307,10 @@
         margin: 10px;
     }
 
+
 }
+
+
 /*=== Fin Media Querys Desktop=== */
 
 
@@ -277,13 +332,19 @@
 .productos{
     display: flex;
     justify-content: center;
-    background-color: rgb(184, 179, 179);
     margin-top: 40px;
 }
 
+
 .producto-1{
-    border: solid black 2px;
+    border: solid white 1.5px;
     width:250px;
+   
+}
+
+.productos-txt{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .titulo-1{
@@ -318,12 +379,19 @@
     justify-content: center;
 }
 
-.buttons{
-    height: 35px;
-    border-radius: 10px;
+.buttons:hover{
+    color: black;
+    background-color:grey;
 }
+
+.buttons{
+    border-radius: 10px;
+    height: 35px;
+}
+
 .buttons p{
     font-size: 0.9rem;
+    margin-left: 2px;
 }
 
 .contenedor-productos{
@@ -340,6 +408,23 @@
 /* Fin seccion productos */
 
 
+/* Media Querys Tablet */
+
+@media(min-width:700px){
+
+    .contenedor-productos{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+
+
+
+}
+
+
 
 /* Media Querys Desktop/Productos*/
 
@@ -351,6 +436,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
+}
+
+.encontranos{
+    margin-top: 30px;
 }
 
 }
@@ -378,14 +467,29 @@
     justify-content: center;
     margin-top: 40px;
     margin-bottom: 40px;
-    background-color: rgb(184, 179, 179);
 }
 
 .ofertas{
-    font-size: 1.1rem;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30px;
 }
 
 }
+
+/* Media Querys tablet */
+
+@media(min-width:700px){
+
+    .contenedor-ofertas{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+}
+
 
 /* Media Querys Desktop/Ofertas */
 
@@ -411,13 +515,17 @@
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
-    background-color:rgb(184, 179, 179) ;
 }
 
 .container-redes{
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
+}
+
+.contactate-txt{
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .redes-4{
@@ -482,16 +590,51 @@
 
 }
 
+/* Media Querys Tablet */
+
+@media(min-width:700px){
+
+.container-redes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.contactate-txt{
+    font-size: 1.6rem;
+}
+
+
+.txt-contacto{
+    font-size: 1.3rem;
+}
+
+
+}
+
 
 /* Media Querys Desktop/Contacto */
 
-@media (min-width:1023px){
-
+@media(min-width:1023px){
 
     .container-redes{
         display: grid;
+        flex-direction: row;
         grid-template-columns: repeat(3,1fr);
         justify-items: center ;
+    }
+
+    .contactate-txt{
+        font-size: 2rem;
+    }
+    
+
+    .txt-contacto{
+
+        font-size: 2rem;
+
     }
 
     .logo-contacto{
@@ -499,19 +642,15 @@
     }
 
     .contactate-txt{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
+        margin-bottom: 60px;
     }
 }
-
 
 
 /* Inicio Seccion Mi Cuenta/Movile */
 
 @media(min-width:375px){
-
-.formulario-registro{
-    background-color:rgb(184, 179, 179);
-}
 
 
 .formulario5{
@@ -526,7 +665,8 @@
 }
 
 .iniciar-sesion-registrarse{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .mi-cuenta{
@@ -534,7 +674,6 @@
     justify-content: center;
     margin-top: 40px;
     margin-bottom: 40px;
-    background-color: rgb(184, 179, 179);
 }
 
 .titulo{
@@ -553,7 +692,12 @@ form{
 }
 
 .olv-contr a{
+    color: white;
+}
+
+.button-login:hover{
     color: black;
+    background-color: grey;
 }
 
 .button-login{
@@ -567,12 +711,39 @@ form{
 
 .formulario-registro2{
     margin-top: 40px;
-    background-color:rgb(184, 179, 179);
 }
 
 .footer-5{
     margin-top: 30px;
 }
+
+}
+
+/* Media Query Tablet */
+
+@media(min-width:700px){
+
+    .contenedor5{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .iniciar-sesion-registrarse{
+        font-size: 1.5rem;
+    }
+    
+    .formulario-registro{
+        height: 413,03px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .formulario-registro2{
+        width: 100%;
+        margin: 0;
+    }
 
 }
 
@@ -587,7 +758,10 @@ form{
         width: 100%;
         gap: 20px;
     }
-
+    .iniciar-sesion-registrarse{
+        font-size: 2rem;
+    }
+    
     .formulario-registro{
         height: 413,03px;
         width: 100%;
@@ -599,34 +773,3 @@ form{
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

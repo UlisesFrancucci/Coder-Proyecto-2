@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lista-redes a {
+    color: whitesmoke;
+}
+
+.redes li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.redes li a {
+    color: black;
+}
+
+// Codigo sombreado de titulo//
+
+#demotext {
+    color: #444444;
+    background: rgb(184, 179, 179);
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+    color: #444444;
+    background: rgb(184, 179, 179);
+    }
+
+
+// Codigo Animacion de fondo//
+
+    body{
+        width: 100%;
+        height: 100vh;
+        color: #fff;
+        background: linear-gradient(45deg, grey, black);
+        background-size: 400% 400%;
+        position: relative;
+        animation: cambiar 10s ease-in-out infinite;
+    }
+
+
+    @keyframes cambiar{
+        0%{background-position: 0 50%;}
+        50%{background-position: 100% 50%;}
+        100%{background-position: 0 50%;}
+    }
+
+
+// =========================//
+
+.envios-txt {
+    font-size: 1.1rem;
+    }
+
+
+.envios {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(184, 179, 179);
+}
+
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+.phone-icon {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+
+.copy {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+.copy-txt {
+    font-size: 0.75rem;
+}
+
+.lista-redes-4 li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.destacados-txt{
+    font-size: 1.3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.texto-dest {
+    font-size: 0.9rem;
+}
+
+.titulo-1{
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+
+.img-1{
+    height: 150px;
+}
+
+.desc-text-1{
+    font-size:0.9rem;
+    margin: 5px;
+}
+
+.ofertas{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+.contactate-txt{
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.txt-contacto{
+    font-size: 1.5rem;
+}
+
+.contactate-txt{
+    font-size: 1.4rem;
+    margin-bottom: 60px;
+}
+
+
+.iniciar-sesion-registrarse{
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.titulo{
+    font-size: 1.2rem;
+}
+
+.olv-contr a{
+    color: white;
+}
