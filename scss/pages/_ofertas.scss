@@ -1,4 +1,5 @@
 @media (min-width:375px){
+
     .contenedor-ofertas{
         display: flex;
         flex-direction: column;
@@ -17,8 +18,8 @@
     }
     
     .ofertas{
-        font-size: 2rem;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5rem;
+        font-family:$tipografia-principal;
         margin-bottom: 30px;
     }
 }

@@ -3,7 +3,7 @@
     .envios {
         display: flex;
         justify-content: center;
-        background-color: rgb(184, 179, 179);
+        background-color:$color-principal;
     }
 
        .lista-redes {
@@ -23,7 +23,7 @@
 
     .destacados-txt{
         font-size: 1.3rem;
-        font-family:rgb(184, 179, 179);
+        font-family:$tipografia-principal;
     }
 
 

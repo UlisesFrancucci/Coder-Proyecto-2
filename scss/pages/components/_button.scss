@@ -1,23 +1,20 @@
-// media q INDEX 375]//
 
 
 .buttons-dest1:hover{
-    color: black;
-    background-color: grey;
+    color:$color-button;
+    background-color: $background-button;
 }
 
-// MQ PRDUCTOS 375//
 
 .buttons:hover{
-    color: black;
-    background-color:grey;
+    color: $color-button;
+    background-color:$background-button;
 }
 
-// MEDIA Q 375 MI CUENTA//
 
 .button-login:hover{
-    color: black;
-    background-color: grey;
+    color: $color-button;
+    background-color: $background-button;
 }
 
 

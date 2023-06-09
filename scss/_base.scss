@@ -1,3 +1,11 @@
+$tipografia-principal:'Franklin Gothic Medium''Arial Narrow', Arial, sans-serif;
+
+$color-principal:rgb(184, 179, 179);
+
+$color-button:black;
+
+$background-button:grey;
+
 
 *{
     margin: 0;
@@ -46,7 +54,7 @@
     }
 
     .footer-bg {
-        background-color:rgb(184, 179, 179);
+        background-color:$color-principal;
     }
 
     .color-tipografia-fter{
@@ -62,6 +70,10 @@
         color: black;
     }
     
+    .img-prd{
+        display: flex;
+        justify-content: center;
+    }
 
     .copy-txt {
         font-size: 0.75rem;
@@ -75,5 +87,6 @@
     .olv-contr a{
         color: white;
     }
+
 
 
