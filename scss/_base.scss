@@ -1,24 +1,11 @@
-* {
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.lista-redes a {
-    color: whitesmoke;
-}
-
-.redes li {
-    text-decoration: none;
-    list-style-type: none;
-}
-
-.redes li a {
-    color: black;
-}
-
-// Codigo sombreado de titulo//
-
+// Sombreado de titulos//
 #demotext {
     color: #444444;
     background: rgb(184, 179, 179);
@@ -26,10 +13,9 @@
     color: #444444;
     background: rgb(184, 179, 179);
     }
+// ====================//
 
-
-// Codigo Animacion de fondo//
-
+// Fondo Animado//
     body{
         width: 100%;
         height: 100vh;
@@ -46,107 +32,48 @@
         50%{background-position: 100% 50%;}
         100%{background-position: 0 50%;}
     }
+// =====================//
 
 
-// =========================//
+    .envios-txt {
+        font-size: 1.1rem;
+    }
 
-.envios-txt {
-    font-size: 1.1rem;
+ 
+
+    .lista-redes a {
+        color: whitesmoke;
+    }
+
+    .footer-bg {
+        background-color:rgb(184, 179, 179);
+    }
+
+    .color-tipografia-fter{
+        color: black;
+    }
+
+    .redes li {
+        text-decoration: none;
+        list-style-type: none;
+    }
+    
+    .redes li a {
+        color: black;
+    }
+    
+
+    .copy-txt {
+        font-size: 0.75rem;
+    }
+
+    .lista-redes-4 li{
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    .olv-contr a{
+        color: white;
     }
 
 
-.envios {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(184, 179, 179);
-}
-
-
-.contacto {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-}
-
-
-.phone-icon {
-    display: flex;
-    justify-content: center;
-    color: black;
-}
-
-
-.copy {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    background-color: grey;
-}
-
-.copy-txt {
-    font-size: 0.75rem;
-}
-
-.lista-redes-4 li{
-    list-style-type: none;
-    text-decoration: none;
-}
-
-.destacados-txt{
-    font-size: 1.3rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.texto-dest {
-    font-size: 0.9rem;
-}
-
-.titulo-1{
-    display: flex;
-    justify-content: center;
-    font-size: 1.1rem;
-}
-
-.img-1{
-    height: 150px;
-}
-
-.desc-text-1{
-    font-size:0.9rem;
-    margin: 5px;
-}
-
-.ofertas{
-    font-size: 2rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-bottom: 30px;
-}
-
-.contactate-txt{
-    font-size: 1.3rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.txt-contacto{
-    font-size: 1.5rem;
-}
-
-.contactate-txt{
-    font-size: 1.4rem;
-    margin-bottom: 60px;
-}
-
-
-.iniciar-sesion-registrarse{
-    font-size: 1.3rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-
-.titulo{
-    font-size: 1.2rem;
-}
-
-.olv-contr a{
-    color: white;
-}

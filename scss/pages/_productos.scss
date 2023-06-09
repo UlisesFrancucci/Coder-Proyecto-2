@@ -1,0 +1,95 @@
+@media (min-width:375px){
+
+    .logo-p{
+        height: 90px;
+    }
+    
+    .productos{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+
+    .producto-1{
+        border: solid white 1.5px;
+        width:250px;
+    }
+
+    .productos-txt{
+        font-size: 2rem;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .titulo-1{
+        display: flex;
+        justify-content: center;
+        font-size: 1.1rem;
+    }
+    .img-1{
+        height: 150px;
+    }
+
+
+    .desc-text-1{
+        font-size:0.9rem;
+        margin: 5px;
+    }
+
+    .precio{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .btns{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+
+    .buttons{
+        border-radius: 10px;
+        height: 35px;
+    }
+
+    .buttons p{
+        font-size: 0.9rem;
+        margin-left: 2px;
+    }
+
+    .contenedor-productos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width:700px){
+
+    .contenedor-productos{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+}
+
+@media (min-width:1023px){
+
+    .contenedor-productos{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    
+    .encontranos{
+        margin-top: 30px;
+    }
+}

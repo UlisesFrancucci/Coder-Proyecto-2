@@ -1,0 +1,71 @@
+@media (min-width:375px){
+
+.img-footer {
+    height: 120px;
+}
+
+.logo-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.phone-icon {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.redes-txt {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 40px;
+    margin-right: 20px;
+}
+
+.direccion {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+
+.txt-encontranos {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.iframe-maps {
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.copy {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: $color-relleno;
+}
+
+.footer-5{
+    margin-top: 30px;
+}
+
+
+}
+
