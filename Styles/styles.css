@@ -65,6 +65,7 @@ body {
 
 .copy-txt {
   font-size: 0.75rem;
+  color: white;
 }
 
 .lista-redes-4 li {
@@ -130,7 +131,7 @@ body {
     margin-top: 40px;
     display: flex;
     justify-content: center;
-    background-color: rgb(184, 179, 179);
+    background-color: black;
   }
   .footer-5 {
     margin-top: 30px;
@@ -337,9 +338,6 @@ body {
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
   }
-  .contactate-txt {
-    font-size: 2rem;
-  }
   .txt-contacto {
     font-size: 2rem;
   }
@@ -396,15 +394,15 @@ body {
     flex-direction: row;
     justify-content: space-around;
   }
-  .contenedor5 .iniciar-sesion-registrarse {
+  .iniciar-sesion-registrarse {
     font-size: 1.5rem;
   }
-  .contenedor5 .formulario-registro {
+  .formulario-registro {
     height: 413, 3px;
     width: 100%;
     margin-bottom: 20px;
   }
-  .contenedor5 .formulario-registro2 {
+  .formulario-registro2 {
     width: 100%;
     margin: 0;
   }
@@ -418,7 +416,7 @@ body {
     gap: 20px;
   }
   .iniciar-sesion-registrarse {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .formulario-registro {
     height: 413, 3px;

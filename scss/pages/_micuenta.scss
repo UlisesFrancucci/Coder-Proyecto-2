@@ -59,24 +59,25 @@
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-around;
+    }
     
 
-    & .iniciar-sesion-registrarse{
+    .iniciar-sesion-registrarse{
         font-size: 1.5rem;
     }
     
-    & .formulario-registro{
+    .formulario-registro{
         height: 413,03px;
         width: 100%;
         margin-bottom: 20px;
     }
 
-    & .formulario-registro2{
+    .formulario-registro2{
         width: 100%;
         margin: 0;
     }
 }
-}
+
 
 @media (min-width:1023px){
 
@@ -87,8 +88,9 @@
         width: 100%;
         gap: 20px;
     }
+    
     .iniciar-sesion-registrarse{
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     
     .formulario-registro{
@@ -100,7 +102,7 @@
         width: 100%;
         margin: 0;
     }
-
 }
+
 
 
