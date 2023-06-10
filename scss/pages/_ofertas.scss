@@ -15,13 +15,14 @@
         justify-content: center;
         margin-top: 40px;
         margin-bottom: 40px;
-    }
     
-    .ofertas{
-        font-size: 1.5rem;
+    
+    & .ofertas{
+        font-size: 1.3rem;
         font-family:$tipografia-principal;
         margin-bottom: 30px;
     }
+}
 }
 
 @media(min-width:700px){

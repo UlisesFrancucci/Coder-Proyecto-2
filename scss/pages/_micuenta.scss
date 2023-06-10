@@ -5,16 +5,19 @@
         flex-direction: column;
         align-items: center;
     }
+    
 
     .login-5{
         gap: 20px;
         margin-top:25px;
     }
+    
 
     .iniciar-sesion-registrarse{
         font-size: 1.3rem;
         font-family:$tipografia-principal;
     }
+    
     
     .mi-cuenta{
         display: flex;
@@ -23,18 +26,22 @@
         margin-bottom: 40px;
     }
     
+    
     .titulo{
         font-size: 1.2rem;
     }
+    
 
     .form{
         margin-top:20px;
     }
     
+    
     .olv-contr{
         margin-top: 30px;
         margin-left: 10px;
     }
+    
 
     .button-login{
         margin-top: 30px;
@@ -52,22 +59,23 @@
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-around;
-    }
+    
 
-    .iniciar-sesion-registrarse{
+    & .iniciar-sesion-registrarse{
         font-size: 1.5rem;
     }
     
-    .formulario-registro{
+    & .formulario-registro{
         height: 413,03px;
         width: 100%;
         margin-bottom: 20px;
     }
 
-    .formulario-registro2{
+    & .formulario-registro2{
         width: 100%;
         margin: 0;
     }
+}
 }
 
 @media (min-width:1023px){

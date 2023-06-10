@@ -50,11 +50,13 @@
     .buttons{
         border-radius: 10px;
         height: 35px;
-    }
+    
 
-    .buttons p{
+    & p{
         font-size: 0.9rem;
-        margin-left: 2px;
+        margin-left: 2px;}
+
+
     }
 
     .contenedor-productos{

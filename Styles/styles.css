@@ -182,8 +182,8 @@ body {
     justify-content: center;
     margin-top: 40px;
   }
-  .destacados-txt {
-    font-size: 1.3rem;
+  .dest p {
+    font-size: 1.4rem;
     font-family: "Franklin Gothic Medium" "Arial Narrow", Arial, sans-serif;
   }
   .s22 {
@@ -221,7 +221,7 @@ body {
     display: flex;
     justify-content: space-around;
   }
-  .buttons-dest1 {
+  .buttons-dest button {
     height: 35px;
     border-radius: 10px;
     width: 100px;
@@ -396,15 +396,15 @@ body {
     flex-direction: row;
     justify-content: space-around;
   }
-  .iniciar-sesion-registrarse {
+  .contenedor5 .iniciar-sesion-registrarse {
     font-size: 1.5rem;
   }
-  .formulario-registro {
+  .contenedor5 .formulario-registro {
     height: 413, 3px;
     width: 100%;
     margin-bottom: 20px;
   }
-  .formulario-registro2 {
+  .contenedor5 .formulario-registro2 {
     width: 100%;
     margin: 0;
   }
@@ -444,8 +444,8 @@ body {
     margin-top: 40px;
     margin-bottom: 40px;
   }
-  .ofertas {
-    font-size: 1.5rem;
+  .ofertas-txt .ofertas {
+    font-size: 1.3rem;
     font-family: "Franklin Gothic Medium" "Arial Narrow", Arial, sans-serif;
     margin-bottom: 30px;
   }
