@@ -11,10 +11,10 @@
 - Flexbox
 - Grid
 - Bootstrap
--SASS
--Variables
--SEO
--Nesting de selectores
+- SASS
+- Variables
+- SEO
+- Nesting de selectores
 
 
 
