@@ -269,7 +269,7 @@ body {
     justify-items: center;
   }
   .contactate-txt {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-family: "Franklin Gothic Medium" "Arial Narrow", Arial, sans-serif;
   }
   .redes-4 {
@@ -328,7 +328,7 @@ body {
     font-size: 1.6rem;
   }
   .txt-contacto {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 1023px) {
@@ -339,13 +339,13 @@ body {
     justify-items: center;
   }
   .txt-contacto {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   .logo-contacto {
     height: 150px;
   }
   .contactate-txt {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin-bottom: 60px;
   }
 }
