@@ -1,12 +1,12 @@
-@media (min-width:375px){
+@media (min-width:375px) {
 
     .envios {
         display: flex;
         justify-content: center;
-        background-color:$color-principal;
+        background-color: $color-principal;
     }
 
-       .lista-redes {
+    .lista-redes {
         text-decoration: none;
         list-style-type: none;
         display: flex;
@@ -19,13 +19,13 @@
         display: flex;
         justify-content: center;
         margin-top: 40px;
-    
 
-    & p{
-        font-size: 1.4rem;
-        font-family:$tipografia-principal;
+
+        & p {
+            font-size: 1.4rem;
+            font-family: $tipografia-principal;
+        }
     }
-}
 
 
     .s22 {
@@ -64,24 +64,24 @@
         display: flex;
         flex-direction: row;
     }
-    
+
     .buttons-dest {
         margin-top: 40px;
         margin-bottom: 40px;
         display: flex;
         justify-content: space-around;
-    
-    & button {
-        height: 35px;
-        border-radius: 10px;
-        width: 100px;
+
+        & button {
+            height: 35px;
+            border-radius: 10px;
+            width: 100px;
+        }
     }
 }
-}
 
-@media (min-width:700px){
+@media (min-width:700px) {
 
-    .container-redes1{
+    .container-redes1 {
         display: flex;
         justify-content: space-between;
         margin: 10px;
@@ -89,28 +89,28 @@
 
 }
 
-@media (min-width:1023px){
+@media (min-width:1023px) {
 
-    .envios-txt{
+    .envios-txt {
         font-size: 1.2rem;
     }
 
-    .contenedor-contactanos{
+    .contenedor-contactanos {
         display: inline-block;
         justify-content: start;
         margin-top: 40px;
         margin-left: 30px;
     }
 
-    .redes-1{
-        display:block;
+    .redes-1 {
+        display: block;
         float: right;
         margin-top: 40px;
-        margin-right:30px;
+        margin-right: 30px;
     }
 
-    .iframe-map{
-        width:85%;
+    .iframe-map {
+        width: 85%;
         margin: 10px;
     }
 }

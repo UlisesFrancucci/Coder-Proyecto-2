@@ -1,81 +1,81 @@
-@media (min-width:375px){
+@media (min-width:375px) {
 
-    .contacto-txt{
+    .contacto-txt {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 40px;
     }
-    
-    .container-redes{
+
+    .container-redes {
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
     }
-    
-    .contactate-txt{
+
+    .contactate-txt {
         font-size: 1.4rem;
-        font-family:$tipografia-principal;
+        font-family: $tipografia-principal;
     }
-    
-    .redes-4{
+
+    .redes-4 {
         margin-top: 40px;
     }
 
-    .lista-redes-4{
+    .lista-redes-4 {
         display: flex;
         justify-content: space-between;
         margin-right: 25px;
         margin-top: 20px;
     }
-    
-    .nro-cont{
+
+    .nro-cont {
         margin-left: 5px;
     }
-    
-    
-    .div-telefono{
+
+
+    .div-telefono {
         margin-top: 40px;
     }
-    
-    .div-direccion{
+
+    .div-direccion {
         margin-top: 40px;
     }
-    
-    .direccion-sucursal{
+
+    .direccion-sucursal {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
-    .div-iframe{
+
+    .div-iframe {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
-    .map-ifr{
+
+    .map-ifr {
         width: 85%;
         margin: 15px;
         height: 220px;
     }
-    
-    .logo-contacto{
+
+    .logo-contacto {
         height: 90px;
     }
-    
-    .cont-logo{
+
+    .cont-logo {
         display: flex;
         justify-content: center;
-        background-color:$color-principal;
+        background-color: $color-principal;
         width: 100%;
         margin-top: 90px;
     }
 }
 
-@media (min-width:700px){
+@media (min-width:700px) {
 
-    .container-redes{
+    .container-redes {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -83,35 +83,35 @@
         gap: 20px;
     }
 
-    .contactate-txt{
+    .contactate-txt {
         font-size: 1.6rem;
     }
 
 
-    .txt-contacto{
+    .txt-contacto {
         font-size: 1.5rem;
     }
 }
 
 
-@media (min-width:1023px){
+@media (min-width:1023px) {
 
-    .container-redes{
+    .container-redes {
         display: grid;
         flex-direction: row;
-        grid-template-columns: repeat(3,1fr);
-        justify-items: center ;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
     }
 
-    .txt-contacto{
+    .txt-contacto {
         font-size: 1.6rem;
     }
 
-    .logo-contacto{
+    .logo-contacto {
         height: 150px;
     }
 
-    .contactate-txt{
+    .contactate-txt {
         font-size: 1.6rem;
         margin-bottom: 60px;
     }

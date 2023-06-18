@@ -1,108 +1,105 @@
-@media (min-width:375px){
+@media (min-width:375px) {
 
-    .formulario5{
+    .formulario5 {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
 
-    .login-5{
+
+    .login-5 {
         gap: 20px;
-        margin-top:25px;
+        margin-top: 25px;
     }
-    
 
-    .iniciar-sesion-registrarse{
+
+    .iniciar-sesion-registrarse {
         font-size: 1.3rem;
-        font-family:$tipografia-principal;
+        font-family: $tipografia-principal;
     }
-    
-    
-    .mi-cuenta{
+
+
+    .mi-cuenta {
         display: flex;
         justify-content: center;
         margin-top: 40px;
         margin-bottom: 40px;
     }
-    
-    
-    .titulo{
+
+
+    .titulo {
         font-size: 1.2rem;
     }
-    
 
-    .form{
-        margin-top:20px;
+
+    .form {
+        margin-top: 20px;
     }
-    
-    
-    .olv-contr{
+
+
+    .olv-contr {
         margin-top: 30px;
         margin-left: 10px;
     }
-    
 
-    .button-login{
+
+    .button-login {
         margin-top: 30px;
-        width:120px;
+        width: 120px;
         border-radius: 15px;
         height: 35px;
         margin-bottom: 20px;
     }
 }
 
-@media (min-width:700px){
+@media (min-width:700px) {
 
-    .contenedor5{
+    .contenedor5 {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-around;
     }
-    
 
-    .iniciar-sesion-registrarse{
+
+    .iniciar-sesion-registrarse {
         font-size: 1.5rem;
     }
-    
-    .formulario-registro{
-        height: 413,03px;
+
+    .formulario-registro {
+        height: 413, 03px;
         width: 100%;
         margin-bottom: 20px;
     }
 
-    .formulario-registro2{
+    .formulario-registro2 {
         width: 100%;
         margin: 0;
     }
 }
 
 
-@media (min-width:1023px){
+@media (min-width:1023px) {
 
-    .contenedor5{
+    .contenedor5 {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         width: 100%;
         gap: 20px;
     }
-    
-    .iniciar-sesion-registrarse{
+
+    .iniciar-sesion-registrarse {
         font-size: 1.7rem;
     }
-    
-    .formulario-registro{
-        height: 413,03px;
+
+    .formulario-registro {
+        height: 413, 03px;
         width: 100%;
     }
 
-    .formulario-registro2{
+    .formulario-registro2 {
         width: 100%;
         margin: 0;
     }
 }
-
-
-
