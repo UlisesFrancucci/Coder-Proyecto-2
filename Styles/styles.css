@@ -52,6 +52,11 @@ body {
   --bs-btn-border-color: white;
 }
 
+.boton-busqueda-navbar:hover {
+  color: #474747;
+  background-color: #444444;
+}
+
 .tipografia {
   font-family: "Franklin Gothic Medium" "Arial Narrow", Arial, sans-serif;
 }
@@ -173,6 +178,11 @@ body {
 .button-login:hover {
   color: black;
   background-color: grey;
+}
+
+.boton-busqueda-navbar:hover {
+  color: #474747;
+  background-color: #474747;
 }
 
 @media (min-width: 375px) {
